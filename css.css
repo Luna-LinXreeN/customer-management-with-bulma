@@ -1,0 +1,31 @@
+:root{
+    --p-color: #464a52;
+    --error-color : #f34141;
+    --deleteBtn: #851212;
+    --bg-list: rgb(79, 120, 178);
+    --bg-list-hover: rgb(133, 169, 229);
+    --bg-color: rgb(191, 131, 206);
+    --bg-color-header: rgba(89, 122, 220, 0.7);
+    --table-th-color: rgba(182, 141, 255, 0.9);
+    --table-td-color: rgba(177, 163, 199, 0.8);
+    --table-hover-color: rgba(230, 229, 232, 0.6);
+
+    --borderRadius: 20px;
+    --vw: 1.1vw;
+    --2vw: 2.1vw;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 auto;
+    font-family: Arial, serif;
+}
